@@ -39,7 +39,9 @@ namespace StockApp.Domain.Entities
 
             DomainExceptionValidation.When(description.Length < 5,
                 "Invalid description, too short, minimum 5 characters.");
-
+            DomainExceptionValidation.When(price < 0, "Invalid stock negative value.");
+            DomainExceptionValidation.When(stock < 0, "Invalid stock negative value.");
+            DomainExceptionValidation.When(image.Length > 250, "Invalid image name, to long, maximum 250 characteres.");
         }
     }
 }
