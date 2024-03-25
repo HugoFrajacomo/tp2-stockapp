@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+dWQaluPChTHk1g0PMoc2XC9LsrAiugufFRPObocOVlgAjuCc+mL4aZL69zW5GE/Sad4gbim19TcTib4Wr082A==",
+  "dgSpecHash": "j1UEV93QiIlK24wYf4zK7U4h+VmYkaGywkt+ki/Hrxz+hos4tGMc9RmouMnf8TkWRWdVYORFKAHw++k4g92HsA==",
   "success": true,
-  "projectFilePath": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
+  "projectFilePath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

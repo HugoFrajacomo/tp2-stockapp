@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {}
+    "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {}
   },
   "projects": {
-    "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+    "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+        "projectUniqueName": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
         "projectName": "StockApp.Domain",
-        "projectPath": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Domain\\obj\\",
+        "projectPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Hugo Frajacomo\\.nuget\\packages\\",
+        "outputPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hugo Frajacomo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,24 +64,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {
+    "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
+        "projectUniqueName": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
         "projectName": "StockApp.Infra.Data",
-        "projectPath": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\obj\\",
+        "projectPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Hugo Frajacomo\\.nuget\\packages\\",
+        "outputPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hugo Frajacomo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,15 +90,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
-                "projectPath": "D:\\repo_git\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
+              "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+                "projectPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
               }
             }
           }
@@ -103,11 +106,34 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -124,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
