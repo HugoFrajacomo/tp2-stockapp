@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockApp.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+773731cf8026f63ac273caf8d1a92284fa2311c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06c0bca8d51c91a1f2004ec2b1ab7c08ff53e19e")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockApp.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockApp.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
