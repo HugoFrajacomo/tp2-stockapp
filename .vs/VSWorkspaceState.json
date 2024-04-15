@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\StockApp",
-    "\\StockApp\\StockApp.Infra.Data",
+    "\\StockApp\\StockApp.Domain",
+    "\\StockApp\\StockApp.Domain\\Entities",
     "\\StockApp\\StockApp.Infra.Data\\Context",
     "\\StockApp\\StockApp.Infra.Data\\EntityConfiguration"
   ],
-  "SelectedNode": "\\StockApp\\StockApp.sln",
+  "SelectedNode": "\\StockApp\\StockApp.Domain\\Entities\\Category.cs",
   "PreviewInSolutionExplorer": false
 }

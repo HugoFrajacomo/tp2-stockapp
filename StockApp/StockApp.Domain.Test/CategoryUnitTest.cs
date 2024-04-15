@@ -8,16 +8,13 @@ namespace StockApp.Domain.Test
     
     public class CategoryUnitTest
     {
-        #region Teste positivos
-        [Fact(DisplayName = "Create Category With Valid State Id")]
+        [Fact(DisplayName = "Create Category With Valid State")]
         public void CreateCategory_WithValidParameters_ResultValidState()
         {
             Action action = () => new Category(1, "Category Name");
             action.Should().NotThrow<DomainExceptionValidation>();
         }
-        #endregion
 
-        #region Teste positivos
         [Fact(DisplayName = "Create Category With Invalid State")]
         public void CreateCategory_WithInvalidParameters_DoaminExceptionInvalidID()
         {
@@ -38,7 +35,6 @@ namespace StockApp.Domain.Test
             Action action = () => new Category(1, null);
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid name, name is required.");
         }
-        #endregion
     }
 
 
