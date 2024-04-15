@@ -15,7 +15,7 @@ namespace StockApp.Domain.Test
             action.Should().NotThrow<DomainExceptionValidation>();
         }
 
-        [Fact(DisplayName = "Create Category With Invalid State")]
+        [Fact(DisplayName = "Create Category With Invalid State ID")]
         public void CreateCategory_WithInvalidParameters_DoaminExceptionInvalidID()
         {
             Action action = () => new Category(-1, "Category Name");
@@ -29,6 +29,13 @@ namespace StockApp.Domain.Test
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid name, too short, minimum 3 characters.");
         }
 
+        [Fact(DisplayName = "Create Category With Long Name")]
+        public void CreateCategory_WithLongName_DoaminExceptionInvalidName()
+        {
+            Action action = () => new Category(1, new string('A', 101));
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid name, too big, maximum 100 Caracteres");
+        }
+
         [Fact(DisplayName = "Create Category With Null State Name")]
         public void CreateCategory_WithNullParameters_DoaminExceptionInvalidName()
         {
@@ -36,6 +43,4 @@ namespace StockApp.Domain.Test
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid name, name is required.");
         }
     }
-
-
 }

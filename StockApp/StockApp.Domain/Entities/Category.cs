@@ -40,6 +40,8 @@ namespace StockApp.Domain.Entities
             DomainExceptionValidation.When(name.Length < 3,
                 "Invalid name, too short, minimum 3 characters.");
 
+            DomainExceptionValidation.When(name.Length > 100, "Invalid name, too big, maximum 100 Caracteres");
+
             Name = name;
         }
         #endregion

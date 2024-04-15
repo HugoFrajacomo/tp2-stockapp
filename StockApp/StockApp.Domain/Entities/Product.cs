@@ -1,9 +1,4 @@
 ﻿using StockApp.Domain.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StockApp.Domain.Entities
 {
@@ -23,11 +18,6 @@ namespace StockApp.Domain.Entities
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value.");
             Id = id;
-            Name = name;
-            Description = description;
-            Price = price;
-            Stock = stock;
-            Image = image;
             CategoryId = categoryId;
             ValidateDomain(name, description, price, stock, image);
         }
@@ -42,14 +32,30 @@ namespace StockApp.Domain.Entities
             DomainExceptionValidation.When(name.Length < 3,
                 "Invalid name, too short, minimum 3 characters.");
 
+            DomainExceptionValidation.When(name.Length > 100, "Invalid name, too big, maximum 100 Caracteres");
+
             DomainExceptionValidation.When(string.IsNullOrEmpty(description),
-                "Invalid description, name is required.");
+                "Invalid description, description is required.");
 
             DomainExceptionValidation.When(description.Length < 5,
                 "Invalid description, too short, minimum 5 characters.");
+
+            DomainExceptionValidation.When(description.Length > 200, "Invalid description, too big, maximum 200 Caracteres");
+
+            DomainExceptionValidation.When(decimal.Round(price, 2) != price,
+                "Invalid price, price must have exactly two decimal places.");
+
             DomainExceptionValidation.When(price < 0, "Invalid stock negative value.");
+
             DomainExceptionValidation.When(stock < 0, "Invalid stock negative value.");
+
             DomainExceptionValidation.When(image.Length > 250, "Invalid image name, to long, maximum 250 characteres.");
+
+            Name = name;
+            Description = description;
+            Price = price;
+            Stock = stock;
+            Image = image;
         }
     }
 }

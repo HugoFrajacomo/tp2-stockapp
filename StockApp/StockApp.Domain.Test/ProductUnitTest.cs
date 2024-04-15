@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FluentAssertions;
+﻿using FluentAssertions;
 using StockApp.Domain.Entities;
 using StockApp.Domain.Validation;
 using Xunit;
@@ -40,11 +35,18 @@ namespace StockApp.Domain.Test
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid name, too short, minimum 3 characters.");
         }
 
+        [Fact(DisplayName = "Create Product With Long Name")]
+        public void CreateProduct_WithLongName_ResultInvalidState()
+        {
+            Action action = () => new Product(1, new string('A', 101), "teste", 2.31m, 5, "/url", 1);
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid name, too big, maximum 100 Caracteres");
+        }
+
         [Fact(DisplayName = "Create Product With Null Description")]
         public void CreateProduct_WithNullDescription_ResultInvalidState()
         {
             Action action = () => new Product(1, "Product Name", null, 2.31m, 5, "/url", 1);
-            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid description, name is required.");
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid description, description is required.");
         }
 
         [Fact(DisplayName = "Create Product With Short Description")]
@@ -54,11 +56,25 @@ namespace StockApp.Domain.Test
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid description, too short, minimum 5 characters.");
         }
 
+        [Fact(DisplayName = "Create Product With Long Description")]
+        public void CreateProduct_WithLongDescription_ResultInvalidState()
+        {
+            Action action = () => new Product(1, "Product Name", new string('A', 201), 2.31m, 5, "/url", 1);
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid description, too big, maximum 200 Caracteres");
+        }
+
         [Fact(DisplayName = "Create Product With Negative Price")]
         public void CreateProduct_WithNegativePrice_ResultInvalidState()
         {
             Action action = () => new Product(1, "Product Name", "teste", -2.31m, 5, "/url", 1);
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid stock negative value.");
+        }
+
+        [Fact(DisplayName = "Create Product With Invalid Price Precision")]
+        public void CreateProduct_WithInvalidPricePrecision_ResultInvalidState()
+        {
+            Action action = () => new Product(1, "Product Name", "teste", 2.333m, 5, "/url", 1);
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid price, price must have exactly two decimal places.");
         }
 
         [Fact(DisplayName = "Create Product With Negative Stock")]
@@ -68,7 +84,7 @@ namespace StockApp.Domain.Test
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid stock negative value.");
         }
 
-        [Fact(DisplayName = "Create Product With Long Image Name")]
+        [Fact(DisplayName = "Create Product With Long Image url")]
         public void CreateProduct_WithLongImageName_ResultInvalidState()
         {
             Action action = () => new Product(1, "Product Name", "teste", 2.31m, 5, new string('A', 251), 1);
