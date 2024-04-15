@@ -14,6 +14,12 @@ namespace StockApp.Domain.Entities
         public int CategoryId { get; set; }
         #endregion
 
+        public Product(string name, string description, decimal price, int stock, string image, int categoryId)
+        {
+            ValidateDomain(name, description, price, stock, image);
+            CategoryId = categoryId;
+        }
+
         public Product(int id, string name, string description, decimal price, int stock, string image, int categoryId)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value.");
