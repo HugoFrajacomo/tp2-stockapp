@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {}
+    "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {}
   },
   "projects": {
-    "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {
+    "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
+        "projectUniqueName": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
         "projectName": "StockApp.Application",
-        "projectPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
-        "packagesPath": "C:\\Users\\Hugo Frajacomo\\.nuget\\packages\\",
-        "outputPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Application\\obj\\",
+        "projectPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
+        "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hugo Frajacomo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\fraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
-                "projectPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
+              "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
               }
             }
           }
@@ -68,25 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+    "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
         "projectName": "StockApp.Domain",
-        "projectPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hugo Frajacomo\\.nuget\\packages\\",
-        "outputPath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Domain\\obj\\",
+        "projectPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hugo Frajacomo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\fraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -47,7 +47,11 @@ namespace StockApp.Domain.Entities
 
             DomainExceptionValidation.When(price < 0, "Invalid stock negative value.");
 
+            DomainExceptionValidation.When(price > 9999999.99m, "Invalid price, maximum value is 9,999,999.99");
+
             DomainExceptionValidation.When(stock < 0, "Invalid stock negative value.");
+
+            DomainExceptionValidation.When(string.IsNullOrEmpty(image), "Invalid image name, image is required.");
 
             DomainExceptionValidation.When(image.Length > 250, "Invalid image name, to long, maximum 250 characteres.");
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StrockApp.Domain.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06c0bca8d51c91a1f2004ec2b1ab7c08ff53e19e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9f447f7d0da15b5576120c903b6b7a8b053ec43")]
 [assembly: System.Reflection.AssemblyProductAttribute("StrockApp.Domain.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StrockApp.Domain.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

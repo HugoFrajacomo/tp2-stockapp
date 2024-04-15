@@ -70,6 +70,13 @@ namespace StockApp.Domain.Test
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid stock negative value.");
         }
 
+        [Fact(DisplayName = "Create Product With Long Price")]
+        public void CreateProduct_WithLongPrice_ResultInvalidState()
+        {
+            Action action = () => new Product(1, "Product Name", "teste", 10000000.00m, 5, "/url", 1);
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid price, maximum value is 9,999,999.99");
+        }
+
         [Fact(DisplayName = "Create Product With Invalid Price Precision")]
         public void CreateProduct_WithInvalidPricePrecision_ResultInvalidState()
         {
@@ -82,6 +89,13 @@ namespace StockApp.Domain.Test
         {
             Action action = () => new Product(1, "Product Name", "teste", 2.31m, -5, "/url", 1);
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid stock negative value.");
+        }
+
+        [Fact(DisplayName = "Create Product With Null Image url")]
+        public void CreateProduct_WithNullImageName_ResultInvalidState()
+        {
+            Action action = () => new Product(1, "Product Name", "teste", 2.31m, 5, null, 1);
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid image name, image is required.");
         }
 
         [Fact(DisplayName = "Create Product With Long Image url")]

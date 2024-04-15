@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j1UEV93QiIlK24wYf4zK7U4h+VmYkaGywkt+ki/Hrxz+hos4tGMc9RmouMnf8TkWRWdVYORFKAHw++k4g92HsA==",
+  "dgSpecHash": "rz1Z0Qd1GXrBNJrhQn72UJHhrZUR2MJLxNwxqoaNMysZP7i23udhB4x1Wz9PELZBMuOV1mpTbwnuEqKI8ni5uQ==",
   "success": true,
-  "projectFilePath": "C:\\TP2\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
+  "projectFilePath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

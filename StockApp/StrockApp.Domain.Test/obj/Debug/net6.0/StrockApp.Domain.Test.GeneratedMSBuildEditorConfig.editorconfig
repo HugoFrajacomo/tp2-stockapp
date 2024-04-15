@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StrockApp.Domain.Test
-build_property.ProjectDir = C:\TP2\tp2-stockapp\StockApp\StrockApp.Domain.Test\
+build_property.ProjectDir = C:\Users\fraja\Source\Repos\HugoFrajacomo\tp2-stockapp\StockApp\StrockApp.Domain.Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
