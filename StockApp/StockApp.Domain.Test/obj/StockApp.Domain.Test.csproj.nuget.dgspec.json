@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fraja\\source\\repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj": {}
+    "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fraja\\source\\repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj": {
+    "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fraja\\source\\repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj",
+        "projectUniqueName": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj",
         "projectName": "StockApp.Domain.Test",
-        "projectPath": "C:\\Users\\fraja\\source\\repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj",
+        "projectPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj",
         "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fraja\\source\\repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\obj\\",
+        "outputPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\fraja\\source\\repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\fraja\\source\\repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
+              "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\fraja\\Source\\Repos\\HugoFrajacomo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
               }
             }
           }

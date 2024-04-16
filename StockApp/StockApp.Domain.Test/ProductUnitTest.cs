@@ -7,11 +7,25 @@ namespace StockApp.Domain.Test
 {
     public class ProductUnitTest
     {
-        [Fact(DisplayName = "Create Product With Valid State")]
+        [Fact(DisplayName = "[Positive] Create Product With Valid State")]
         public void CreateProduct_WithValidParameters_ResultValidState()
         {
             Action action = () => new Product(1, "Product Name", "teste", 2.31m, 5, "/url", 1);
             action.Should().NotThrow<DomainExceptionValidation>();
+        }
+
+        [Fact(DisplayName = "[Positive] Create Product With null stock parameters State")]
+        public void CreateProduct_WithNullStockParameters_ResultValidState()
+        {
+            Action action = () => new Product(1, "Product Name", "teste", 2.31m, null, "/url", 1);
+            action.Should().NotThrow<DomainExceptionValidation>();
+        }
+
+        [Fact(DisplayName = "[Positive] Create Product With Null Stock")]
+        public void CreateProduct_WithNullStock_ResultValidState()
+        {
+            var product = new Product(1, "Product Name", "teste", 2.31m, null, "/url", 1);
+            product.Stock.Should().Be(0);
         }
 
         [Fact(DisplayName = "Create Product With Invalid State Id")]
@@ -61,6 +75,13 @@ namespace StockApp.Domain.Test
         {
             Action action = () => new Product(1, "Product Name", new string('A', 201), 2.31m, 5, "/url", 1);
             action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid description, too big, maximum 200 Caracteres");
+        }
+
+        [Fact(DisplayName = "Create Product With Null Price")]
+        public void CreateProduct_WithNullPrice_ResultInvalidState()
+        {
+            Action action = () => new Product(1, "Product Name", "teste", null, 5, "/url", 1);
+            action.Should().Throw<DomainExceptionValidation>().WithMessage("Invalid price, price is required.");
         }
 
         [Fact(DisplayName = "Create Product With Negative Price")]

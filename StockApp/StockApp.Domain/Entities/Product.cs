@@ -8,19 +8,19 @@ namespace StockApp.Domain.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public decimal Price { get; set; }
-        public int Stock { get; set;}
+        public decimal? Price { get; set; }
+        public int? Stock { get; set;}
         public string Image { get; set; }
         public int CategoryId { get; set; }
         #endregion
 
-        public Product(string name, string description, decimal price, int stock, string image, int categoryId)
+        public Product(string name, string description, decimal? price, int? stock, string image, int categoryId)
         {
             ValidateDomain(name, description, price, stock, image);
             CategoryId = categoryId;
         }
 
-        public Product(int id, string name, string description, decimal price, int stock, string image, int categoryId)
+        public Product(int id, string name, string description, decimal? price, int? stock, string image, int categoryId)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value.");
             Id = id;
@@ -30,7 +30,7 @@ namespace StockApp.Domain.Entities
 
         public Category Category { get; set; }
 
-        private void ValidateDomain(string name, string description, decimal price, int stock, string image)
+        private void ValidateDomain(string name, string description, decimal? price, int? stock, string image)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
                 "Invalid name, name is required.");
@@ -48,7 +48,9 @@ namespace StockApp.Domain.Entities
 
             DomainExceptionValidation.When(description.Length > 200, "Invalid description, too big, maximum 200 Caracteres");
 
-            DomainExceptionValidation.When(decimal.Round(price, 2) != price,
+            DomainExceptionValidation.When(price == null, "Invalid price, price is required.");
+
+            DomainExceptionValidation.When(decimal.Round(price.Value, 2) != price,
                 "Invalid price, price must have exactly two decimal places.");
 
             DomainExceptionValidation.When(price < 0, "Invalid stock negative value.");
@@ -64,7 +66,7 @@ namespace StockApp.Domain.Entities
             Name = name;
             Description = description;
             Price = price;
-            Stock = stock;
+            Stock = stock == null ? 0 : stock.Value;
             Image = image;
         }
     }
