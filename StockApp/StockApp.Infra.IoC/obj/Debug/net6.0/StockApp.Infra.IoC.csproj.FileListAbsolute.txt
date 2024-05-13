@@ -37,3 +37,5 @@ C:\tpHugo\tp2-stockapp\StockApp\StockApp.Infra.IoC\obj\Debug\net6.0\StockApp.Inf
 C:\tpHugo\tp2-stockapp\StockApp\StockApp.Infra.IoC\obj\Debug\net6.0\refint\StockApp.Infra.IoC.dll
 C:\tpHugo\tp2-stockapp\StockApp\StockApp.Infra.IoC\obj\Debug\net6.0\StockApp.Infra.IoC.pdb
 C:\tpHugo\tp2-stockapp\StockApp\StockApp.Infra.IoC\obj\Debug\net6.0\ref\StockApp.Infra.IoC.dll
+C:\tpHugo\tp2-stockapp\StockApp\StockApp.Infra.IoC\bin\Debug\net6.0\StockApp.Infra.IoC.runtimeconfig.json
+C:\tpHugo\tp2-stockapp\StockApp\StockApp.Infra.IoC\obj\Debug\net6.0\StockApp.Infra.IoC.genruntimeconfig.cache

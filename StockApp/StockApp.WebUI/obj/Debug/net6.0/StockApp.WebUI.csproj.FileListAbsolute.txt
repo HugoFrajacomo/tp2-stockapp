@@ -147,3 +147,5 @@ C:\tpHugo\tp2-stockapp\StockApp\StockApp.WebUI\obj\Debug\net6.0\refint\StockApp.
 C:\tpHugo\tp2-stockapp\StockApp\StockApp.WebUI\obj\Debug\net6.0\StockApp.WebUI.pdb
 C:\tpHugo\tp2-stockapp\StockApp\StockApp.WebUI\obj\Debug\net6.0\StockApp.WebUI.genruntimeconfig.cache
 C:\tpHugo\tp2-stockapp\StockApp\StockApp.WebUI\obj\Debug\net6.0\ref\StockApp.WebUI.dll
+C:\tpHugo\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Humanizer.dll
+C:\tpHugo\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
