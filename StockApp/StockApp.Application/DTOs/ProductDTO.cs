@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace StockApp.Application.DTOs
 {
-    internal class ProductDTO
+    public class ProductDTO
     {
         public int Id { get; set; }
 

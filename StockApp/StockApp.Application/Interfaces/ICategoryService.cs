@@ -14,6 +14,5 @@ namespace StockApp.Application.Interfaces
         Task Add(CategoryDTO categoryDto);
         Task Update(CategoryDTO categoryDto);
         Task Remove(int? id);
-
     }
 }

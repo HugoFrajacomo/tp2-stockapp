@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace StockApp.Application.Services
 {
-    internal class CategoryService : ICategoryService
+    public class CategoryService : ICategoryService
     {
         private ICategoryRepository _categoryRepository;
         private IMapper _mapper;
