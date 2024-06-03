@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj": {}
+    "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj": {}
   },
   "projects": {
-    "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj": {
+    "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj",
+        "projectUniqueName": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj",
         "projectName": "StockApp.API",
-        "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj",
+        "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.API\\StockApp.API.csproj",
         "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.API\\obj\\",
+        "outputPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj": {
-                "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj"
+              "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj": {
+                "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj"
               }
             }
           }
@@ -77,18 +78,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {
+    "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
+        "projectUniqueName": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
         "projectName": "StockApp.Application",
-        "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
+        "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj",
         "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Application\\obj\\",
+        "outputPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,14 +104,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
-                "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
+              "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+                "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
               }
             }
           }
@@ -155,18 +157,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+    "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+        "projectUniqueName": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
         "projectName": "StockApp.Domain",
-        "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+        "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
         "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\obj\\",
+        "outputPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,6 +183,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -219,18 +222,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {
+    "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
+        "projectUniqueName": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
         "projectName": "StockApp.Infra.Data",
-        "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
+        "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\obj\\",
+        "outputPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -245,14 +248,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
-                "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
+              "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+                "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
               }
             }
           }
@@ -313,18 +317,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj": {
+    "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj",
+        "projectUniqueName": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj",
         "projectName": "StockApp.Infra.IoC",
-        "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj",
+        "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\fraja\\.nuget\\packages\\",
-        "outputPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\obj\\",
+        "outputPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -339,20 +343,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {
-                "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj"
+              "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj": {
+                "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Application\\StockApp.Application.csproj"
               },
-              "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
-                "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
+              "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj": {
+                "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj"
               },
-              "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {
-                "projectPath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj"
+              "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj": {
+                "projectPath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj"
               }
             }
           }
@@ -397,7 +402,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

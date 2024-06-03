@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "88X+46Hc6e4H6jqSJMBUGQYLPtvC6BESK2eOldaRtSgGJ2tyYAk/fNmVPU+MEitk05+FHgK6uT6+nX6lD1jG5w==",
+  "dgSpecHash": "mJf+Z85C4/E=",
   "success": true,
-  "projectFilePath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
+  "projectFilePath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain\\StockApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "faAJOUpzrG2Plzf45w9bFuzrdw5GCSJbfU4kpUBtijFHIyFBQAeilvX1Y7aPss0RlODgwfCePYClrEC+/kafaw==",
+  "dgSpecHash": "bXnDwh1iQWo=",
   "success": true,
-  "projectFilePath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.WebUI\\StockApp.WebUI.csproj",
+  "projectFilePath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.WebUI\\StockApp.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fraja\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\fraja\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tYF1hiUs4I0R3kRWZnYNKUG7/ifbWvPtq8QWiMH6wyMfzDN4/m6oQ3Ezp3qKcUCNq9YAiEc/12gOwsB7pRDkwQ==",
+  "dgSpecHash": "058Ors1PLsE=",
   "success": true,
-  "projectFilePath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj",
+  "projectFilePath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\StockApp.Domain.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fraja\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\fraja\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wHuPOMBYZqgHOsj+onMPsab1mRnl7+bePjLB4sTz+S8zDn/K7sbNIkaEqgqS1It93EyM0yqNnTc4hz8OpKC/ag==",
+  "dgSpecHash": "B4Om/0AQO8s=",
   "success": true,
-  "projectFilePath": "C:\\tpHugo\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
+  "projectFilePath": "C:\\RepoGit\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fraja\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fraja\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
